@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
-import { StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useEffect, useState } from "react";
+import { StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 
 export default function Home() {
     const [value, setValue] = useState("")
@@ -47,7 +47,7 @@ export default function Home() {
             <TextInput style={myStyles.Input} value={value} onChangeText={setValue} placeholder="กรุณากรอกชื่อสัตว์"/>
 
 
-                {/*ปุ่มกดบันทึก*/}
+                {/*ปุ่มกดบันทึก xxxx*/}
             <View style={{flexDirection:"row",gap:100}}>
                 
                 <TouchableOpacity onPress={saveAnimal} style= {{backgroundColor:"#E6E6FA",padding:20,marginTop:20,borderRadius:40,borderWidth:3,borderColor:"#F0F8FF"}} >
