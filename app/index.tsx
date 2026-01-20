@@ -44,7 +44,7 @@ export default function Home() {
             </Text>
 
             {/*กรอกค่า*/}
-            <TextInput style={myStyles.Input} value={value} onChangeText={setValue}/>
+            <TextInput style={myStyles.Input} value={value} onChangeText={setValue} placeholder="กรุณากรอกชื่อสัตว์"/>
 
 
                 {/*ปุ่มกดบันทึก*/}
